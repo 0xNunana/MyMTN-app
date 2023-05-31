@@ -106,7 +106,7 @@ const Data =[
 
 
 ]
-console.log (Data[1].info1.design)
+
 
 const MoMoScreen = () => {
   return (
@@ -126,10 +126,10 @@ const MoMoScreen = () => {
         
         <Text className="font-bold text-xl text-gray-500"> MoMo Balance</Text>
     </View>
-    <Text className="font-black text-2xl"> GHc 617.40</Text>
+    <Text className="font-black text-2xl"> GHc 157,060.40</Text>
 </View>
 <View className="justify-center items-center border-2 border-[#ffcc00] rounded-2xl p-2 m-4">
-    <Image source={{uri:"https://www.freepnglogos.com/uploads/qr-code-png/qr-code-file-codigo-svg-wikimedia-commons-30.png"}} style={{height:60,width:60,color:"#ffcc00"}}/>
+    <Image source={{uri:"https://www.freepnglogos.com/uploads/qr-code-png/qr-code-file-codigo-svg-wikimedia-commons-30.png"}} style={{height:60,width:60}}/>
 <Text className="text-blue-600 text-xs">
     MoMo Pay
 </Text>
