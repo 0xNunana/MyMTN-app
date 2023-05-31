@@ -9,9 +9,9 @@ import Purchase from '../screens/Purchase'
 const StackNavigation = ({navigation}) => {
    const Tab = createBottomTabNavigator()
   return (
-   <Tab.Navigator screenOptions={{tabBarStyle:{height:70}, }}>
-    <Tab.Screen name="Home" component={HomeScreen} options={{headerShown:false,  tabBarIcon:(color,size)=>(<Icon type="material" name="home" color='#ffcc00' size={50}/>)}}/>
-    <Tab.Screen name="Buy/Send" component={Purchase} options={{ headerShown:false, tabBarIcon:(color,size)=>(<Icon type="material" name="shopping-cart" color='#ffcc00' size={50}/>)}}/>
+   <Tab.Navigator screenOptions={{tabBarStyle:{height:70},tabBarLabelStyle:{fontSize:15} }}>
+    <Tab.Screen name="Home" component={HomeScreen} options={{headerShown:false,  tabBarIcon:(color,size)=>(<Icon type="material" name="home" color='#ffcc00' size={40}/>)}}/>
+    <Tab.Screen name="Buy/Send" component={Purchase} options={{ headerShown:false, tabBarIcon:(color,size)=>(<Icon type="material" name="shopping-cart" color='#ffcc00' size={40}/>)}}/>
    </Tab.Navigator>
   )
 }

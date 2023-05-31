@@ -44,7 +44,7 @@ const Data=[{
 },{
     type:"Just4U",
     icon:"work",
-    details:"Unique offers foe you",
+    details:"Unique offers for you",
     offer:"",
     socials:""
 },
@@ -56,7 +56,7 @@ const Purchase = () => {
   return (
     <SafeAreaView>
         <Header2/>
-      <ScrollView>
+      <ScrollView className="mb-16"> 
         <View className="border border-[#ffcc00] flex-row items-center p-2 mx-2 mb-3 mt-10 space-x-3 bg-white">
 <Icon name="wifi-tethering" type="material" size={40} color="#ffcc00"/>
 <View className="pr-7">
