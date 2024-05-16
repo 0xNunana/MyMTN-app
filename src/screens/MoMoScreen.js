@@ -138,7 +138,7 @@ const MoMoScreen = () => {
         </View>
         <View className="flex-row bg-[#ffcc00] rounded-b-2xl p-4 items-center" >
             <View className="flex-row flex-grow items-center">
-                <Image source={require('../../assets/momo.png')} style={{height:40,width:30}}/>
+                <Image source={require('../../assets/mom.png')} style={{height:40,width:30}}/>
                 <Text className="font-bold text-blue-600 text-md">Download the MoMo App for more</Text>
             </View>
             <Icon type='material' name='arrow-forward' color="blue"/>
