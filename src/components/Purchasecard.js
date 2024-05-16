@@ -6,7 +6,7 @@ const Purchasecard = ({type,socials,offer,icon,details}) => {
   return (
     <View className="flex-row bg-white m-2 rounded-l-2xl" style={{borderRadius:30,elevation:2}}>
       <View className="flex-grow  bg-white ">
-        <View className="flex-row py-2 px-4 border-l-xl">
+        <View className="flex-row p-2 border-l-xl">
         <Text className="text-blue-600 text-2xl font-semibold">{type}</Text>
         <Text>{offer}</Text>
         </View>
